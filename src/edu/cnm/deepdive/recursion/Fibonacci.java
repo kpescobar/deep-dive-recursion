@@ -12,8 +12,6 @@ public class Fibonacci {
       return BigInteger.ONE;
     }
     return fib(n - 1).add(fib(n - 2));
-    
-
   }
 
 }
